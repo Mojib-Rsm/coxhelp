@@ -106,14 +106,6 @@ const App: React.FC = () => {
       >
         <span className="font-black text-xl tracking-tighter">SOS</span>
       </button>
-
-      {/* Admin Toggle */}
-      <button 
-        onClick={() => setCurrentPage('admin')}
-        className="fixed bottom-4 left-4 bg-slate-800 text-white/30 p-2 rounded-lg text-[10px] z-40 hover:text-white"
-      >
-        Dashboard
-      </button>
     </Layout>
   );
 };
