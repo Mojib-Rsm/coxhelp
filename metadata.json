@@ -1,0 +1,7 @@
+{
+  "name": "CoxHelp - Your Cox's Bazar Travel Companion",
+  "description": "An all-in-one platform for tourists and locals in Cox's Bazar, featuring tourism guides, emergency services, business directories, and local news.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
