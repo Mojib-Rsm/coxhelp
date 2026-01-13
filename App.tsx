@@ -1,27 +1,27 @@
 
 import React, { useState, useEffect } from 'react';
 import { ArrowLeft } from 'lucide-react';
-import Layout from './components/Layout';
-import Home from './pages/Home';
-import Emergency from './pages/Emergency';
-import Tourism from './pages/Tourism';
-import Hotels from './pages/Hotels';
-import GuideBooking from './pages/GuideBooking';
-import AdminDashboard from './pages/AdminDashboard';
-import Food from './pages/Food';
-import Transport from './pages/Transport';
-import Business from './pages/Business';
-import News from './pages/News';
-import Account from './pages/Account';
-import Packages from './pages/Packages';
-import Products from './pages/Products';
-import Community from './pages/Community';
-import TravelTips from './pages/TravelTips';
-import Privacy from './pages/Privacy';
-import Terms from './pages/Terms';
-import About from './pages/About';
-import BloodDonors from './pages/BloodDonors';
-import { TRANSLATIONS } from './constants';
+import Layout from './components/Layout.tsx';
+import Home from './pages/Home.tsx';
+import Emergency from './pages/Emergency.tsx';
+import Tourism from './pages/Tourism.tsx';
+import Hotels from './pages/Hotels.tsx';
+import GuideBooking from './pages/GuideBooking.tsx';
+import AdminDashboard from './pages/AdminDashboard.tsx';
+import Food from './pages/Food.tsx';
+import Transport from './pages/Transport.tsx';
+import Business from './pages/Business.tsx';
+import News from './pages/News.tsx';
+import Account from './pages/Account.tsx';
+import Packages from './pages/Packages.tsx';
+import Products from './pages/Products.tsx';
+import Community from './pages/Community.tsx';
+import TravelTips from './pages/TravelTips.tsx';
+import Privacy from './pages/Privacy.tsx';
+import Terms from './pages/Terms.tsx';
+import About from './pages/About.tsx';
+import BloodDonors from './pages/BloodDonors.tsx';
+import { TRANSLATIONS } from './constants.tsx';
 
 const App: React.FC = () => {
   const [activeLanguage, setActiveLanguage] = useState<'EN' | 'BN'>(() => {
